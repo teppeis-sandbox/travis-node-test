@@ -1,0 +1,26 @@
+{
+  "name": "travis-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teppeis-sandbox/travis-node-test.git"
+  },
+  "keywords": [],
+  "author": "Teppei Sato <teppeis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teppeis-sandbox/travis-node-test/issues"
+  },
+  "homepage": "https://github.com/teppeis-sandbox/travis-node-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.21.0"
+  }
+}

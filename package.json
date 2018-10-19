@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm cache verify && echo \"Error: no test specified\""
+    "test": "npm config get cache && echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
